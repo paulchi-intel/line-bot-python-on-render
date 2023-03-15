@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: line-bot-eat-what
+  name: line-eat-what
   env: python
   repo: https://github.com/paulchi-intel/line-eat-what.git
   buildCommand: pip install gunicorn -r requirements.txt
